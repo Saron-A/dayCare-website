@@ -17,12 +17,13 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0 10px;
-  color: black;
+  padding: 20px 5px 10px;
+  /* color: black;
   border-bottom: 1px solid #202323;
   width: 100%;
-  background-color: #ffffffb7;
+  background-color: #ffffffb7; */
   border-radius: 4px;
+  box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.1);
 }
 
 .nav-bar .nav-links {
@@ -57,6 +58,7 @@ span {
 .header h1 {
   font-size: 2.5rem;
   margin-bottom: 10px;
+  border-radius: 10px 30% 10px 30%;
 }
 
 .header img {
@@ -72,9 +74,9 @@ span {
   align-items: center;
   padding: 40px;
   border-radius: 10px;
-  background-color: #e3f6f5;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  margin: 20px 0;
+
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); */
+  margin: 40px 0;
 }
 
 .programs {
@@ -84,8 +86,8 @@ span {
   align-items: center;
   padding: 40px;
   border-radius: 10px;
-  background-color: #e3f6f5;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 .programs h2 {
   text-align: center;
@@ -95,6 +97,7 @@ span {
   display: grid;
   grid-template-columns: repeat(3, minmax(30%, 1fr));
   gap: 30px;
+  grid-template-rows: 200px;
 }
 
 .programs-list .program-item {
@@ -103,7 +106,28 @@ span {
   gap: 20px;
   align-items: center;
   border-radius: 20px;
-  background-color: #bae8e8;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
   padding: 10px 15px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px 5px;
+  height: 150px;
+}
+footer h2 {
+  text-align: center;
+}
+footer .contact-icons {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(30%, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+footer .contact-icon {
+  height: 20px;
 }
