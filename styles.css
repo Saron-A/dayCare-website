@@ -249,3 +249,51 @@ form button:hover {
   cursor: pointer;
   transform: scale(1.05);
 }
+
+/* Responsive design */
+@media (max-width: 480px) {
+  .subcontainer-1 {
+    margin: 0;
+    border-radius: 0;
+    width: 100%;
+  }
+
+  .about {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .about img {
+    display: none;
+  }
+
+  .programs {
+    display: grid;
+  }
+
+  .programs .programs-list {
+    grid-template-columns: minmax(30%, 1fr);
+    gap: 20px;
+    grid-template-rows: repeat(3, minmax(120px, 1fr));
+  }
+
+  footer {
+    margin-bottom: 0;
+  }
+
+  footer .contact-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-info .contact-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: transparent;
+    box-shadow: none;
+    border-radius: none;
+    padding: 0;
+  }
+}
