@@ -251,11 +251,12 @@ form button:hover {
 }
 
 /* Responsive design */
+/* Mobile phones */
 @media (max-width: 480px) {
   .subcontainer-1 {
     margin: 0;
     border-radius: 0;
-    width: 100%;
+    width: 100vw;
   }
 
   .about {
