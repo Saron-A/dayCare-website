@@ -110,7 +110,8 @@ html {
 }
 .subabout p {
   text-align: start;
-  background-color: bisque;
+  /* background-color: bisque; */
+  background-color: #dcecfd;
   padding: 10px;
   border-radius: 10px;
 }
@@ -223,7 +224,7 @@ footer .contact-icons {
   justify-content: center;
   align-items: center;
   gap: 50px;
-  background-color: bisque;
+  background-color: #dcecfd;
   padding: 10px 20px;
   border-radius: 8px;
 }
@@ -300,6 +301,7 @@ form button:hover {
     border-radius: 0;
     width: 100vw;
     padding: 10px 0;
+    background-color: #f0f7fe;
   }
 
   .nav-bar .hamburger {
@@ -320,7 +322,7 @@ form button:hover {
     position: absolute;
     top: 25px;
     left: 60px;
-    background-color: bisque;
+    background-color: #dcecfd;
     color: rgb(105, 178, 250);
     padding: 10px 20px;
     border-radius: 0.5rem;
@@ -348,6 +350,7 @@ form button:hover {
 
   footer {
     margin-bottom: 0;
+    background-color: #f0f7fe;
   }
 
   footer .contact-info {
